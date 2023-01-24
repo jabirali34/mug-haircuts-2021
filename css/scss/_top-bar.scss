@@ -1,0 +1,25 @@
+#top-bar {
+  .topbar-tagline{
+    img{
+      width: 23px;
+    }
+  
+  }
+  .phone-icon {
+    margin-left: 10px;
+    margin-right: 2px;
+    width: 20px;
+  }
+  .hide {display:none;}
+  @media(min-width:768px){
+  p,a{
+    font-size:16px;
+  }
+  .text-md-show {display:block;}
+  }
+  @media(min-width:992px){
+    p,a {
+      font-size:20px;
+    }
+  }
+}

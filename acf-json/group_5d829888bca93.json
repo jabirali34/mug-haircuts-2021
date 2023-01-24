@@ -1,0 +1,190 @@
+{
+    "key": "group_5d829888bca93",
+    "title": "Social Selector",
+    "fields": [
+        {
+            "key": "field_5d82988c6dfbc",
+            "label": "Include Social Section",
+            "name": "include_social_section",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "instagram": "Instagram",
+                "twitter": "Twitter"
+            },
+            "allow_null": 1,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5d8298a16dfbd",
+            "label": "Social Background Color",
+            "name": "social_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5dda21df99f3f",
+            "label": "Social Text Color",
+            "name": "social_text_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5dda2f8a31fab",
+            "label": "Instagram Link Color",
+            "name": "instagram_link_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d82988c6dfbc",
+                        "operator": "==",
+                        "value": "instagram"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "580"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "155"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "129"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "110"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "380"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "469"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "121"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "752"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "752"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-careers.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-contact.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-front.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-gallery.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-meet-the-team.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1574580220
+}

@@ -1,0 +1,243 @@
+// .gform_body .gfield_label {
+//   display: none !important;
+// }
+
+
+// .gform_body > ul li {
+// padding-right: 0px !important;
+// }
+
+// .gform_body > ul > li div.ginput_container {
+// position: relative !important;
+// display:flex;
+// }
+
+// .gform_body > ul li input {
+// width: 100% !important;
+// padding: .3rem .6rem !important;
+// border-radius: 1px !important;
+// }
+
+// .gform_body > ul li select {
+// width: 100% !important;
+// padding: .3rem .6rem !important;
+// border-radius: 1px !important;
+// }
+
+// .ginput_container:before {
+// content: "*"!important;
+// color: red;
+// width: 4%;
+// height: 20px;
+// }
+
+// .gform_wrapper button{
+// width:96%;
+// margin-left:4%;
+// }
+
+// @media(min-width:768px){
+
+// .ginput_container:before {
+//   width:3%;
+// }
+
+// .gform_wrapper button{
+//   margin-left:3%;
+//   width:auto;
+// }
+
+// }
+
+// // Horizontal Form
+
+
+// #main-contact-form form .gform_footer.top_label {text-align:center;}
+// #main-contact-form form .ginput_container:before {
+// content: "" !important;
+// display: none;}
+// #main-contact-form form .gform_footer.top_label > input {
+// background-color: #309958;
+// padding: .6rem 1rem;
+// font-size: 18px;
+// color: #fff;
+// border: #278049 3px solid;
+// text-transform: uppercase;
+// font-weight: 700;
+// white-space: normal;
+// }
+
+// p.horizontal-form-title {
+// font-size: 40px;
+// font-weight: bold;
+// text-align: center;
+// margin-bottom: 1.2rem;
+// }
+
+// @media(min-width:600px){
+// #main-contact-form form .gform_footer.top_label > input {width:auto;  padding: .9rem 1rem;}
+// p.horizontal-form-title {
+//   font-size: 50px;
+//   font-weight: 700;
+//   text-align: center;
+//   margin-bottom: 1.2rem;
+// }
+// }
+// @media(min-width:768px) {
+// .gform_body > ul li input, .gform_body > ul li select {
+//   padding: 15px 20px 15px !important;
+// }
+// }
+// body .gform_wrapper ul li.gfield:first-child {
+// margin:0px !important;
+// }
+// .gform_wrapper .gform_footer {
+// padding: 0px !important; 
+// margin: 16px 0 0 !important;
+// }
+// .gform_wrapper textarea {
+// padding: 15px 20px 15px !important;
+// }
+// .gform_wrapper textarea.large {
+// height:145px !important;
+// }
+
+// // mailchimp modal forms
+// #subscribeModal{
+// .modal-dialog {
+//   width: 330px;
+//   max-width: 100%;
+// }
+// .modal-header, .modal-footer {
+//     border: none !important;
+// }
+// #mc_embed_signup form{
+//     padding:0px !important;
+// }
+// #mc_embed_signup .mc-field-group {
+//     width:100% !important;
+//     padding-bottom: 20px !important;
+// }
+// #mc_embed_signup .mc-field-group input {
+//     padding: 14px 0 !important;
+// }
+// .modal-header {
+//     padding-bottom: 0px !important;
+//     padding-top: 0px !important;
+//     .close {
+//         padding: 1rem;
+//         margin: -.5rem -1rem -1rem auto !important;
+//     }
+// }
+// .modal-body {
+//     padding-bottom: 0px !important;
+// }
+// .modal-footer {
+//     justify-content: center;
+//     padding-top: 0px !important;
+
+//     .clear {
+//         width:100%;
+//     }
+// }
+// #mc_embed_signup div#mce-responses {
+//     width: 100% !important;
+//     margin: 0 !important;
+// }
+// #mc_embed_signup div.response {
+//     width: 100%;
+//     padding: 0px !important;
+// }
+
+// #mc-embedded-subscribe {
+//   margin: auto;
+// }
+
+// }
+
+.gform_body>div input, .gform_body>div select, .gform_body>div textarea {
+  padding: 15px 20px 15px !important;
+}
+
+// Franchise forms
+#gform_wrapper_12 {
+  select {
+    line-height:1.35;
+    margin-top:0px !important;
+    margin-bottom:0px;
+  }
+  &.gravity-theme .gfield input.medium, &.gravity-theme .gfield select.medium {
+    width:100%;
+  }
+
+  @media(max-width:768px){
+    .top_label li.gfield.gf_left_third:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm), .top_label li.gfield.gf_middle_third:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm){
+      width: 100% !important;
+    }
+    .top_label li.gfield.gf_right_third:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm) {
+      width:100% !important;
+    }
+    .top_label li.gfield.gf_right_third:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm) {
+      width:100% !important;
+    }
+    .top_label li.gfield.gf_left_half, .top_label li.gfield.gf_right_half, .top_label li.gfield.gf_left_half, .top_label li.gfield.gf_right_half {
+      width:100% !important;
+    }
+  }
+}
+// stylist form
+#gform_wrapper_11 {
+  .gfield_required {
+    display:none;
+  }
+  input.large, input.medium, input.small, select.large, select.medium, select.small, ul:not(.top_label) ul.gfield_checkbox, ul:not(.top_label) ul.gfield_radio, textarea {
+    width:100% !important;
+  } 
+  #input_11_11 {
+    width: 100% !important;
+  }
+  .right_label textarea.medium {
+    width:100% !important;
+  }
+  .gfield_label {
+    display:none !important;
+  }
+  .gform_footer:not(.top_label) {
+    width:100% !important;
+    margin:0px !important;
+  }
+  
+}
+#gform_wrapper_11.gravity-theme .left_label div.gfield>div:not(.ui-resizable-handle):not(.gfield-admin-icons), #gform_wrapper_11.gravity-theme .right_label div.gfield>div:not(.ui-resizable-handle):not(.gfield-admin-icons) {
+  width:100%;
+}
+#gform_wrapper_11.gravity-theme .gform_footer.left_label, #gform_wrapper_11.gravity-theme .gform_footer.right_label, #gform_wrapper_11.gravity-theme .gform_page_footer.left_label, #gform_wrapper_11.gravity-theme .gform_page_footer.right_label {
+  padding: 16px 0 10px 0px;
+}
+
+.gform_wrapper .btn.blue:before {
+  border:1px solid #000 !important;
+  box-sizing: border-box;
+  box-sizing: revert !important;
+}
+.gform_wrapper .btn.blue {
+  margin-top:5px !important;
+}
+
+
+
+
+// .gform_wrapper *, .gform_wrapper :after, .gform_wrapper :before {
+// box-sizing: border-box;
+// box-sizing: revert !important;
+// }
+
+.form-wrapper{
+  border: 1px solid #C4C4C4;
+  padding: 22px 42px 43px;
+}
+@media(max-width:450px){
+  .gform_wrapper .btn.blue {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 1.9rem 1.5rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  position:relative;
+  border-radius:5px;
+}
+.accordion h2, .accordion h3 {
+  margin-top:0px;
+  margin-bottom:0px;
+  line-height:1;
+  font-size:19px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion h2:after, .accordion h3:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABi0lEQVRIie3WMUscQRgG4GcOOa4Ix2EhIv6WFCGFhYVICosQREKKFMFCgoQgWIQUIZWkSJEiVf5G/ocECUFEQhARkRBwLRxhs87M3a2CgdwsX7Vz7zPfzezthUrlLkbnTtQJ/P/CQZgLwvxNw4MwH4TZ5M2qdqGLJexhF8uVdhce4VusRUz9db8xeTGiVazvuN8CfYD9Ws4uFpIwFnBYm3xVe1hprjgDTuFxXHAz5wAPU/Br/El8oMIPLI349e5nMn7jZQoe4EuckMOfoJsAu1gdgn5GP7fHs3FCDj/AagJ+mtmmK/QTZrKHK4ZM42MBP8QaerGe4WcB/YDBNSezV/2InxXwdWwU0NOI3ksahYMyjXeFzo9xUuj0barToXDt8diJq08BqTrBe3SK2SM8IgO8KXTXRLfrp7c1XOt8ewh+7PK3oNjpWHDE+9iKQBM9wqvcQboRXOv8RQM/wvNRO20FR7yHTfyKtYHeuDkhho01gtBx+QY6x9dKdT52Rhv4Nsa/9ddnAk/g2xgXKaNxQyyH0w8AAAAASUVORK5CYII=);
+}
+.active, .accordion:hover {
+  background-color: #f3f2f0;
+}
+
+.panel {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow:unset;
+  
+  .panel-padding {
+    padding:1.5rem;
+  }
+
+  p:last-child{
+    margin-bottom:0px;
+  }
+}
